@@ -22,16 +22,16 @@ Observacao: no fim da execucao, cada codigo usa uma estrategia simples para evit
 
 | Linguagem |      Comando usado     | Melhor tempo(ms) |
 |------|-----------------------------|------------------|
-| C    | .\\main.exe                 |     102.401      |
-| C++  | .\\main.exe                 |     398.501      |
-| Rust | rustc main.rs + .\\main.exe |     408.097      |
-| Go   | go run main.go              |     99.242       |
+| C    | .\\main.exe                 |     45.973       |
+| C++  | .\\main.exe                 |     71.249       |
+| Rust | rustc main.rs + .\\main.exe |     393.309      |
+| Go   | go run main.go              |     78.245       |
 
 ## Ranking (preencher)
 
-1. Go
-2. C
-3. C++
+1. C
+2. C++
+3. GO
 4. Rust
 
 ## Metodologia

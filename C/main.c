@@ -8,6 +8,10 @@ int main() {
     
     uint64_t capacity = count * 2;
     uint64_t* values = (uint64_t*)malloc(capacity * sizeof(uint64_t));
+    if (values == NULL) {
+        fprintf(stderr, "allocation failed\n");
+        return 1;
+    }
     uint64_t size = 0;
 
     LARGE_INTEGER frequency, start, end;
@@ -28,7 +32,8 @@ int main() {
 
     printf("time exec in milliseconds: %.3f\n", ms);
 
-    volatile uint64_t antiTrapaca = values[0];
+    volatile uint64_t antiTrapaca = values[0] + values[size - 1];
+    (void)antiTrapaca;
     free(values); 
 
     return 0;

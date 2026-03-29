@@ -7,7 +7,7 @@ int main() {
     const uint64_t count = 20000000; 
     
     std::vector<uint64_t> values;
-    values.reserve(count);
+    values.reserve(count * 2);
 
     auto timeNow = std::chrono::high_resolution_clock::now();
 
@@ -24,6 +24,9 @@ int main() {
 
     std::cout << std::fixed << std::setprecision(3);
     std::cout << "time exec in milliseconds: " << ms << "\n";
+
+    volatile uint64_t antiTrapaca = values.front() + values.back();
+    (void)antiTrapaca;
 
     return 0;
 }

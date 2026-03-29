@@ -4,7 +4,7 @@ use std::hint::black_box;
 fn main() {
     let count = 20_000_000;
     
-    let mut values: Vec<u64> = Vec::with_capacity(count);
+    let mut values: Vec<u64> = Vec::with_capacity(count * 2);
 
     let time_now = Instant::now();
 
@@ -21,5 +21,6 @@ fn main() {
 
     println!("time exec in milliseconds: {:.3}", ms);
     
-    black_box(values);
+    let anti_trapaca = values[0] + values[values.len() - 1];
+    black_box(anti_trapaca);
 }

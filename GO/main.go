@@ -8,7 +8,7 @@ import (
 func main() {
 	const count = 20000000
 
-	values := make([]uint64, 0, count)
+	values := make([]uint64, 0, count*2)
 
 	timeNow := time.Now()
 
@@ -22,5 +22,9 @@ func main() {
 
 	timeExec := time.Since(timeNow)
 
-	fmt.Printf("time exec in milliseconds: %.3f\n", float64(timeExec.Nanoseconds())/1000000.0)
+	ms := timeExec.Seconds() * 1000.0
+	fmt.Printf("time exec in milliseconds: %.3f\n", ms)
+
+	antiTrapaca := values[0] + values[len(values)-1]
+	_ = antiTrapaca
 }
