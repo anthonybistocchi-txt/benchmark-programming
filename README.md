@@ -20,8 +20,6 @@ Observacao: no fim da execucao, cada codigo usa uma estrategia simples para evit
 
 ## Resultado dos testes (preencher)
 
-Preencha os tempos abaixo com os valores dos seus consoles.
-
 | Linguagem |      Comando usado     | Melhor tempo(ms) |
 |------|-----------------------------|------------------|
 | C    | .\\main.exe                 |     102.401      |
