@@ -44,7 +44,8 @@ O C++ utiliza o mesmo pacote do C (GCC).
 Após instalar o MinGW, verifique:
 
 g++ --version
-Go
+
+GO
 Baixe o Go:
 https://go.dev/dl/
 Instale normalmente (Next → Next).
@@ -52,6 +53,7 @@ Instale normalmente (Next → Next).
 Verifique a instalação:
 
 go version
+
 Rust
 Instale via rustup (método oficial):
 https://www.rust-lang.org/tools/install
@@ -79,6 +81,7 @@ Verifique a instalação:
 
 gcc --version
 g++ --version
+
 Go
 Ubuntu / Debian
 sudo apt install golang
@@ -90,6 +93,7 @@ sudo pacman -S go
 Verifique:
 
 go version
+
 Rust
 
 Instalação oficial via rustup:
