@@ -124,7 +124,7 @@ rustc --version
 | Rust | rustc main.rs + .\\main.exe |     393.309      |
 | Go   | go run main.go              |     78.245       |
 
-## Ranking (preencher)
+## Ranking
 
 1. C
 2. C++
