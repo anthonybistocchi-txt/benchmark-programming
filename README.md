@@ -115,7 +115,7 @@ rustc --version
 - Go: uso de slice com `make`, preenchimento em duas fases, tempo com `time.Now` e `time.Since`.
 - Rust: uso de `Vec<u64>`, preenchimento em duas fases, tempo com `Instant`.
 
-## Resultado dos testes (preencher)
+## Resultado dos testes
 
 | Linguagem |      Comando usado     | Melhor tempo(ms) |
 |------|-----------------------------|------------------|
@@ -185,4 +185,4 @@ playing-go/
 
 ---
 
-Documento atualizado em: 29/03/2026
+Documento atualizado em: 30/03/2026
