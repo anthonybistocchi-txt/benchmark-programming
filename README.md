@@ -13,7 +13,7 @@ Observacao: no fim da execucao, cada codigo usa uma estrategia simples para evit
 
 Instalação das linguagens
 
-WINDOWS
+## WINDOWS
 
 Antes de executar os benchmarks, é necessário instalar os compiladores/ambientes de cada linguagem.
 
@@ -63,7 +63,7 @@ Verifique a instalação:
 
 rustc --version
 
-LINUX 
+## LINUX 
 
 C e C++ (GCC / G++)
 
